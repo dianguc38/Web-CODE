@@ -2,6 +2,8 @@ import requests
 import sys
 import urllib2
 
+print ("\n\t\t[Editor by h3ll38]\n")
+
 url="http://159.89.166.12:13500/"
 done 	= "pctf{"
 words	= open("md5.txt","rb").readlines()
