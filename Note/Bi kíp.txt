@@ -4,3 +4,5 @@
     - Null byte
     - php.jpg
     - COMMAND INJECT :https://medium.com/@ajdumanhug/hackstreetboys-inctf-2018-the-most-secure-file-uploader-web-challenge-975bc7b94efc
+    
+hide error messenger: ini_set( "display_errors", 0); 
