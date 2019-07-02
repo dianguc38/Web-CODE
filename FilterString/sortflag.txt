@@ -1,0 +1,6 @@
+flag{mates_aab_ccccc}
+flag{mates_aab_ssss}
+flag{mates_aab_ctsuna4miaaaaasssssssssssssssssss}
+flag{mates_aa_Vvvvvv} 
+flag{mates_a_cccccclslslslsl}
+flag{mates_a_vvvvvv} 
